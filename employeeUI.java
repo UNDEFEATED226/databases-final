@@ -248,9 +248,9 @@ public class employeeUI {
 	public static void main(String[] args) throws SQLException, ClassNotFoundException, ParseException {
 		Scanner x = new Scanner(System.in);
 		System.out.println("------------------------------HOTEL 2.0------------------------------");
+		login();
 		boolean on = true;
 		while (on == true) {
-			login();
 			System.out.println("1.Users");
 			System.out.println("2.Properties");
 			System.out.println("3.Branches");
